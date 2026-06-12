@@ -1,0 +1,90 @@
+# Naldi Pradipta Portfolio
+
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=naldi-portfolio-website.visitor-badge)
+
+This is Naldi Pradipta's personal portfolio website, built with Next.js. It features four primary sections: Home, About, Projects, and Contact. The site uses Framer Motion for animation, Fullpage.js for page transitions, Tailwind CSS for styling, and JSON data for project content.
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+## Features
+
+* **Smooth Animation:** Smooth page scroll and scroll trigger animation.
+* **Smooth Page Transition:** Smooth page transition with prefetching feature of next js.
+* **Dynamic Data:** Read the project data from JSON file instead of directly implemented the data.
+
+## Installation
+
+1. Ensure you have [pnpm](https://pnpm.io/) installed. If not, you can install it using:
+
+   ```shell
+   npm install -g pnpm
+   ```
+2. Clone the repository:
+
+   ```shell
+   git clone https://github.com/Naldipa/naldi-portfolio-website.git
+   ```
+3. Navigate to the project directory:
+
+   ```shell
+   cd naldi-portfolio-website
+   ```
+4. Install dependencies:
+
+   ```
+   pnpm install
+   ```
+5. Start the development server
+
+   ```shell
+   pnpm dev
+   ```
+
+6. Build for production before deployment:
+
+   ```shell
+   pnpm build
+   ```
+
+## Usage
+
+There are four main sections and two subpages in this portfolio website:
+
+### Home
+
+The home page serves as an introduction to the portfolio. It provides an overview of your web development skills and passion for the field. Users can explore other sections from here.
+
+### About
+
+The about page offers more detailed information about you as a web developer. It might include your background, education, skills, and interests in the field of web development.
+
+### Projects
+
+The projects section showcases your work as a web developer. Users can explore the projects you've worked on, and you can provide details such as project descriptions, technologies used, and images.
+
+### Contact
+
+The contact page allows users to get in touch with you. You can provide contact information or a contact form for inquiries.
+
+### Subpages
+
+- **Project archive:** list all of your project that dont needed to display at main project page.
+- Project details: See the main project detail by clicking the project image.
+
+Feel free to customize and expand upon these sections and subpages to suit your needs and showcase your unique skills and projects.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
+
+## Reference (inspiration)
+
+- https://www.frans.my.id/
+- https://kuon-yagi-portfolio.netlify.app/
+
+## License
+
+This project is licensed under the GPL-3.0 License see the [LICENSE](LICENSE) file for details.
+
+Original project copyright (C) 2025 Alvalen Shafelbilyunazra.
+Customized for Naldi Pradipta.

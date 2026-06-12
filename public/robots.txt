@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://naldi-pradipta.vercel.app/sitemap2.xml

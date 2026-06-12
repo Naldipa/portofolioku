@@ -1,0 +1,96 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "BatikEye",
+      "desc": [
+        "BatikEye is an interactive batik motif recognition website built to support cultural education and preservation. The platform allows users to upload batik images and receive motif recognition results through an integrated machine learning model.",
+        "I built the front-end using React.js, Tailwind CSS, JavaScript, and Axios, then integrated it with a RESTful API developed by the back-end and machine learning teams. The system connects with FastAPI, PostgreSQL, and a TensorFlow CNN model for batik image recognition with over 90% accuracy.",
+        "The project is available through its GitHub repository and was developed as an educational tool that introduces batik motifs through a modern and interactive web experience."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/Naldipa/frontend-batikeye",
+      "thumbnail": "/image/projects/web/batikeye/batikeye-home.png",
+      "images": [
+        "/image/projects/web/batikeye/batikeye-home.png",
+        "/image/projects/web/batikeye/batikeye-upload.png",
+        "/image/projects/web/batikeye/batikeye-detail.png",
+        "/image/projects/web/batikeye/batikeye-history.png"
+      ],
+      "tech": [
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript",
+        "Axios",
+        "FastAPI",
+        "PostgreSQL",
+        "TensorFlow",
+        "Supabase"
+      ],
+      "slug": "batikeye",
+      "category": [
+        1,
+        2
+      ]
+    },
+    {
+      "show": true,
+      "title": "TechTrove",
+      "desc": [
+        "TechTrove is a modern e-commerce website designed specifically for selling electronic and technology products such as smartphones, laptops, smart home devices, and other digital accessories. The platform focuses on providing a safe, simple, and efficient shopping experience for users.",
+        "The website includes product search and filtering by category, price, and brand, complete product detail pages with specifications, images, and customer reviews, secure checkout through payment gateway integration, order tracking, account management, and rating and review features.",
+        "I built the responsive front-end using HTML, CSS, and JavaScript, while the back-end was developed with PHP and integrated with MySQL to manage product data, user accounts, orders, reviews, and transaction records in a structured database."
+      ],
+      "year": "2024",
+      "preview": "",
+      "code": "https://github.com/Naldipa/Webb-Apps-Techtrove",
+      "thumbnail": "/image/projects/web/techtrove/techtrove-home.png",
+      "images": [
+        "/image/projects/web/techtrove/techtrove-home.png"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "Payment Gateway API"
+      ],
+      "slug": "techtrove",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "Dashboard Pusat Penelitian dan Penerbitan UIN Jakarta",
+      "desc": [
+        "Dashboard Pusat Penelitian dan Penerbitan UIN Jakarta is an administrative dashboard built to centralize research, publication, incentive, article registration, reference book, faculty, and research year data in one structured system.",
+        "I worked as a Project-Based Fullstack Developer, developing dashboard summaries, data visualization charts, period-based reporting, CRUD modules, search and filtering features, and responsive admin interfaces using Laravel Filament and Blade.",
+        "The system was built with PHP, Laravel, Filament, Blade, MySQL, and Tailwind CSS to support efficient data management, research performance monitoring, and administrative workflows for the research and publishing center."
+      ],
+      "year": "2025 - 2026",
+      "preview": "",
+      "code": "https://github.com/Naldipa/Dashboard-Pusat-Penelitian-dan-Penerbitan-UIN-Jakarta",
+      "thumbnail": "/image/projects/web/uin-dashboard/uin-dashboard-1.jpeg",
+      "images": [
+        "/image/projects/web/uin-dashboard/uin-dashboard-1.jpeg",
+        "/image/projects/web/uin-dashboard/uin-dashboard-2.jpeg",
+        "/image/projects/web/uin-dashboard/uin-dashboard-3.jpeg"
+      ],
+      "tech": [
+        "PHP",
+        "Laravel",
+        "Filament",
+        "Blade",
+        "MySQL",
+        "Tailwind CSS"
+      ],
+      "slug": "uin-dashboard",
+      "category": [
+        1
+      ]
+    }
+  ]
+}
