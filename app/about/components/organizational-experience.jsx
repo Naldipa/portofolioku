@@ -96,6 +96,7 @@ export default function OrganizationalExperience() {
                     alt={photo.alt}
                     fill
                     sizes="(max-width: 640px) 100vw, 33vw"
+                    quality={100}
                     className={
                       photo.fit === "contain"
                         ? "object-contain"
