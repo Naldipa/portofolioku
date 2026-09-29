@@ -86,11 +86,11 @@ const MyPage = () => {
                       type: "spring",
                     }}
                   >
-                    Hi! I&rsquo;am Naldi, A junior fullstack developer
-                    specializing in modern Web Development with a growing focus
-                    on Artificial Intelligence. Passionate about building
-                    scalable, user-friendly web applications and exploring AI
-                    technologies such as generative models and LLM integration.
+                    Hi! I&rsquo;am Naldi, a Fullstack Developer passionate about
+                    building modern web applications and exploring Artificial
+                    Intelligence and Machine Learning. I combine frontend,
+                    backend, and AI technologies to create responsive, scalable,
+                    and user-focused digital solutions.
                   </motion.p>
                   <motion.div
                     className="buttons flex flex-row justify-center items-center space-x-4 mt-10"

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Me1 from "@/public/image/me1.jpg";
 import Me2 from "@/public/image/me2.jpg";
-import Me3 from "@/public/image/me3.jpg";
+import Me4 from "@/public/image/me4.jpg";
 import Hr from "@/components/Hr";
 
 function Title() {
@@ -58,10 +58,11 @@ export default function About() {
                 className="w-full h-full"
               >
                 <Image
-                  src={Me2}
+                  src={Me4}
                   alt="Naldi"
                   layout="fill"
                   objectFit="cover"
+                  className="scale-110"
                   placeholder="blur"
                 />
               </motion.div>
@@ -84,10 +85,12 @@ export default function About() {
                 className="w-full h-full"
               >
                 <Image
-                  src={Me3}
+                  src={Me2}
                   alt="Naldi"
                   layout="fill"
-                  objectFit="cover"
+                  objectFit="contain"
+                  objectPosition="top"
+                  className="scale-110"
                   placeholder="blur"
                 />
               </motion.div>
@@ -113,33 +116,45 @@ export default function About() {
           <h2 className="text-2xl font-bold tracking-wider mb-3">
             Naldi Pradipta
           </h2>
+
           <p className="text-gray-600 text-justify title text-lg">
             Hey there, I&rsquo;m Naldi Pradipta, a
+            <span className="text-black font-medium"> Fullstack Developer</span>{" "}
+            with a strong interest in
             <span className="text-black font-medium">
               {" "}
-              passionate Fullstack Developer
+              web development, Artificial Intelligence, and Machine Learning.
             </span>{" "}
-            with a growing expertise in
+            I hold a Bachelor&rsquo;s degree in
             <span className="text-black font-medium">
               {" "}
-              Artificial Intelligence.
+              Informatics Engineering
             </span>{" "}
-            Hailing from Padang, West Sumatera, Indonesia. I&rsquo;m currently
-            pursuing my degree in{" "}
+            from
             <span className="text-black font-medium">
-              Computer Science
-            </span> at{" "}
+              {" "}
+              Universitas Esa Unggul
+            </span>
+            , graduating with a GPA of
+            <span className="text-black font-medium"> 3.58/4.00.</span> I have
+            hands-on experience building web applications across the frontend,
+            backend, database, and API layers, as well as designing user
+            interfaces and integrating machine learning models. One of my main
+            projects is
+            <span className="text-black font-medium"> BatikEye</span>, an
+            interactive batik motif recognition platform powered by a TensorFlow
+            CNN model. Beyond development, I enjoy exploring
             <span className="text-black font-medium">
-              Universitas Esa Unggul.
+              {" "}
+              UI/UX design, AI, machine learning, and emerging technologies.
             </span>{" "}
-            My work bridges modern web technologies and intelligent systems -
-            building responsive, scalable websites and applications to exploring generative AI
-            and LLM-based solutions. Beyond development, I stay curious about
-            design and emerging technologies. In today&rsquo;s ever-changing
-            digital landscape, I believe being a
-            <span className="text-black font-medium"> lifelong learner</span> is
-            essential. Let&rsquo;s connect and explore the evolving intersection
-            of web and AI together!
+            I&rsquo;m a
+            <span className="text-black font-medium">
+              {" "}
+              lifelong learner
+            </span>{" "}
+            who enjoys adapting to new technologies, solving problems, and
+            continuously improving my skills through real-world projects.
           </p>
         </motion.div>
       </div>

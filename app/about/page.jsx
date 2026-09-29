@@ -10,7 +10,9 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import Quote from "./components/quote/quote.jsx";
 import Skills from "./components/skills/skills.jsx";
 import Experience from "./components/experience.jsx";
+import OrganizationalExperience from "./components/organizational-experience.jsx";
 import Education from "./components/education.jsx";
+import TrainingCertifications from "./components/training-certifications.jsx";
 
 // images
 import Hero from "@/public/image/me2.jpg";
@@ -32,20 +34,16 @@ export default function Page() {
         <div className="relative h-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
           {/* hero */}
           <div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
-            <motion.div
-              initial={{ scale: 1 }}
-              animate={{ scale: 1.6 }}
-              transition={{ ease: "circOut", duration: 1 }}
-              className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 "
-            >
+            <div className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
               <Image
                 src={Hero}
                 alt="Naldi Pradipta"
                 layout="fill"
                 objectFit="cover"
+                objectPosition="top"
                 placeholder="blur"
               />
-            </motion.div>
+            </div>
           </div>
           <div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
             <h1 className="md:bg-white bg-transparent lg:bg-transparent bg-opacity-50 md:px-0 text-black text-5xl md:text-8xl font-bold">
@@ -89,9 +87,16 @@ export default function Page() {
         <Experience />
         {/* end experience */}
 
+        {/* organizational experience */}
+        <OrganizationalExperience />
+        {/* end organizational experience */}
+
         {/* Education */}
         <Education />
         {/* end Education */}
+
+        {/* Training and certifications */}
+        <TrainingCertifications />
 
         {/* Quote */}
         <Quote />

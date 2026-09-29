@@ -2,6 +2,59 @@
   "Projects": [
     {
       "show": true,
+
+      "title": "Sistuber",
+
+      "desc": [
+        "Designed the UI/UX for Sistuber, a digital healthcare application focused on supporting the tuberculosis (TB) screening process. Conducted user research to understand user needs and challenges, developed user flows, and designed 65+ wireframes and high-fidelity screens using Figma. Created interactive prototypes to visualize user journeys and conducted usability testing to identify usability issues and improve the overall user experience. Collaborated directly with stakeholders to gather requirements, discuss feedback, and refine the design based on project needs."
+      ],
+
+      "year": "2023",
+
+      "preview": "https://www.figma.com/proto/0btVx3hAtWbAd15yvd80xq/SISTUBER?page-id=26%3A18206&node-id=887-6477&starting-point-node-id=816%3A5337&scaling=contain&content-scaling=responsive&t=7nZ5dlNR2GgUJTQT-1",
+
+      "code": "",
+
+      "thumbnail": "/image/projects/mobile/Sistuber/sistuber-mockup.jpg",
+
+      "images": ["/image/projects/mobile/Sistuber/sistuber-mockup.jpg"],
+
+      "tech": [
+        "Figma",
+        "User Research",
+        "User Flow",
+        "Wireframing",
+        "Prototyping",
+        "Usability Testing"
+      ],
+
+      "slug": "sistuber",
+
+      "category": [3]
+    },
+    {
+      "show": true,
+      "title": "MediManage",
+      "desc": [
+        "Designed the UI/UX for MediManage, a digital healthcare application designed to support patients and healthcare staff. Conducted user research, developed user flows, and designed 60+ wireframes and high-fidelity screens using Figma. Created interactive prototypes and conducted usability testing to identify usability issues and improve the overall user experience. Collaborated directly with stakeholders to gather requirements, discuss feedback, and refine the design based on project needs."
+      ],
+      "year": "2024",
+      "preview": "https://www.figma.com/proto/yorcBo1eug9Uas9WKTQ9WT/MediManage?node-id=0-1&t=AY0qCKsdSSz3ySGk-1",
+      "code": "",
+      "thumbnail": "/image/projects/mobile/Medi-manage/medi-manage-mockup.jpg",
+      "images": ["/image/projects/mobile/Medi-manage/medi-manage-mockup.jpg"],
+      "tech": [
+        "Figma",
+        "User Research",
+        "Wireframing",
+        "Prototyping",
+        "Usability Testing"
+      ],
+      "slug": "medimanage",
+      "category": [3]
+    },
+    {
+      "show": true,
       "title": "BatikEye",
       "desc": [
         "BatikEye is an interactive batik motif recognition website built to support cultural education and preservation. The platform allows users to upload batik images and receive motif recognition results through an integrated machine learning model.",
@@ -29,10 +82,7 @@
         "Supabase"
       ],
       "slug": "batikeye",
-      "category": [
-        1,
-        2
-      ]
+      "category": [1, 2]
     },
     {
       "show": true,
@@ -46,9 +96,7 @@
       "preview": "",
       "code": "https://github.com/Naldipa/Webb-Apps-Techtrove",
       "thumbnail": "/image/projects/web/techtrove/techtrove-home.png",
-      "images": [
-        "/image/projects/web/techtrove/techtrove-home.png"
-      ],
+      "images": ["/image/projects/web/techtrove/techtrove-home.png"],
       "tech": [
         "HTML",
         "CSS",
@@ -58,9 +106,7 @@
         "Payment Gateway API"
       ],
       "slug": "techtrove",
-      "category": [
-        1
-      ]
+      "category": [1]
     },
     {
       "show": true,
@@ -79,18 +125,9 @@
         "/image/projects/web/uin-dashboard/uin-dashboard-2.jpeg",
         "/image/projects/web/uin-dashboard/uin-dashboard-3.jpeg"
       ],
-      "tech": [
-        "PHP",
-        "Laravel",
-        "Filament",
-        "Blade",
-        "MySQL",
-        "Tailwind CSS"
-      ],
+      "tech": ["PHP", "Laravel", "Filament", "Blade", "MySQL", "Tailwind CSS"],
       "slug": "uin-dashboard",
-      "category": [
-        1
-      ]
+      "category": [1]
     }
   ]
 }

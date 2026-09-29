@@ -10,9 +10,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import Me4 from "@/public/image/me4.jpeg";
-import Me5 from "@/public/image/me5.jpg";
-import Me6 from "@/public/image/me6.jpg";
+import Freshgraduate from "@/public/image/freshgraduate.jpg";
+import PresentMaleo from "@/public/image/present-maleo.jpg";
+import FotoDospem from "@/public/image/fotbar-dospem.jpg";
 
 function Wrapper({ children }) {
   return (
@@ -103,7 +103,9 @@ export default function Education() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="font-medium text-lg mb-4">2022 - Present</div>
+            <div className="font-medium text-lg mb-4">
+              September 2022 - August 2026
+            </div>
             <div>
               <h2 className="font-semibold text-xl">Universitas Esa Unggul</h2>
               <h3 className="text-md font-normal mb-3">
@@ -112,7 +114,7 @@ export default function Education() {
               <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
                 <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
                   <Image
-                    src={Me5}
+                    src={Freshgraduate}
                     width={400}
                     height={225}
                     alt="University"
@@ -121,7 +123,7 @@ export default function Education() {
                 </div>
                 <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
                   <Image
-                    src={Me4}
+                    src={PresentMaleo}
                     width={400}
                     height={225}
                     alt="University"
@@ -130,7 +132,7 @@ export default function Education() {
                 </div>
                 <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
                   <Image
-                    src={Me6}
+                    src={FotoDospem}
                     width={400}
                     height={225}
                     alt="University"
@@ -140,36 +142,53 @@ export default function Education() {
               </div>
               <div className="flex items-center gap-2">
                 <p className="text-gray-600 text-justify title text-lg">
-                  Aspiring to become a professional Fullstack Developer, I&rsquo;m
-                  currently pursuing my Bachelor&rsquo;s degree in{" "}
+                  I&rsquo;m a{" "}
                   <span className="text-black font-medium">
-                    Computer Science
+                    Bachelor&rsquo;s degree graduate in Informatics Engineering
                   </span>{" "}
-                  at{" "}
+                  from{" "}
                   <span className="text-black font-medium">
                     Universitas Esa Unggul
                   </span>
-                  . My journey in tech is driven by curiosity and
-                  creativity - combining web development with cutting-edge AI
-                  research and implementation.
-                  <br />
-                  <br />I am passionate about solving real-world problems
-                  through code, especially at the intersection of{" "}
+                  , graduating with a GPA of{" "}
+                  <span className="text-black font-medium">3.58/4.00</span>.
+                  During my studies, I developed a strong foundation in{" "}
                   <span className="text-black font-medium">
-                    Web Development
-                  </span>{" "}
-                  and{" "}
-                  <span className="text-black font-medium">
-                    Artificial Intelligence
+                    software development, fullstack web development, and RESTful
+                    APIs
                   </span>
-                  . Constantly learning, building, and collaborating - I&rsquo;m
-                  excited to keep growing and contributing to the evolving tech
-                  landscape.
+                  , while gaining hands-on experience through academic and
+                  real-world projects.
+                  <br />
+                  <br />
+                  My final thesis,{" "}
+                  <span className="text-black font-medium">BatikEye</span>,
+                  focused on developing an interactive batik motif recognition
+                  website using a{" "}
+                  <span className="text-black font-medium">
+                    Convolutional Neural Network (CNN) based on MobileNetV2
+                  </span>
+                  , achieving{" "}
+                  <span className="text-black font-medium">
+                    93.85% model accuracy
+                  </span>
+                  . The project was implemented at{" "}
+                  <span className="text-black font-medium">Yayasan Maleo</span>{" "}
+                  as an educational and cultural learning tool to help students
+                  recognize the diversity of Indonesian batik motifs.
+                  <br />
+                  <br />
+                  Beyond academics, I strengthened my development skills through{" "}
+                  <span className="text-black font-medium">
+                    Coding Camp 2025 by DBS Foundation
+                  </span>
+                  , gaining hands-on experience in front-end and back-end web
+                  development through intensive training and projects.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
                 <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-                  GPA: 3.6 out of 4
+                  GPA: 3.58 out of 4.00
                 </div>
               </div>
             </div>
