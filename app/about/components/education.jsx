@@ -118,7 +118,7 @@ export default function Education() {
                     width={400}
                     height={225}
                     alt="University"
-                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                    className="rounded-lg w-full h-full object-cover grayscale-0 md:grayscale md:group-hover:grayscale-0 transition-all duration-300 ease-in-out"
                   />
                 </div>
                 <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
@@ -127,7 +127,7 @@ export default function Education() {
                     width={400}
                     height={225}
                     alt="University"
-                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                    className="rounded-lg w-full h-full object-cover grayscale-0 md:grayscale md:group-hover:grayscale-0 transition-all duration-300 ease-in-out"
                   />
                 </div>
                 <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
@@ -136,7 +136,7 @@ export default function Education() {
                     width={400}
                     height={225}
                     alt="University"
-                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                    className="rounded-lg w-full h-full object-cover grayscale-0 md:grayscale md:group-hover:grayscale-0 transition-all duration-300 ease-in-out"
                   />
                 </div>
               </div>
@@ -234,7 +234,7 @@ export default function Education() {
                       ) : null}
 
                       {/* Glassmorphism achievement card with monochrome to color effect */}
-                      <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl p-4 shadow-lg hover:bg-white/30 transition-all duration-300 hover:shadow-xl grayscale hover:grayscale-0">
+                      <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl p-4 shadow-lg hover:bg-white/30 transition-all duration-300 hover:shadow-xl grayscale-0 md:grayscale md:hover:grayscale-0">
                         <div className="flex items-center gap-4">
                           <div
                             className={`aspect-square w-10 rounded-full bg-gradient-to-r ${achievement.color} flex items-center justify-center text-primary-foreground transition-all duration-300`}

@@ -34,7 +34,7 @@ export default function Page() {
         <div className="relative h-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
           {/* hero */}
           <div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
-            <div className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
+            <div className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale-0 md:grayscale md:hover:grayscale-0 ">
               <Image
                 src={Hero}
                 alt="Naldi Pradipta"
