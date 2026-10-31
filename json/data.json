@@ -128,6 +128,76 @@
       "tech": ["PHP", "Laravel", "Filament", "Blade", "MySQL", "Tailwind CSS"],
       "slug": "uin-dashboard",
       "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Susi Air Pilot Operations Dashboard",
+      "desc": [
+        "Developed a mobile-first Pilot Operations Dashboard as part of a Fullstack Developer technical recruitment assessment for Susi Air. The application provides pilot operational management features, including flight-hour tracking, duty schedules, document expiration monitoring, flight-hour limit calculations, and interactive data visualization.",
+        "Implemented the frontend using Nuxt 3, Vue 3, TypeScript, Pinia, and Chart.js, with a NestJS REST API backend. The application uses read-only JSON data as its data source and supports responsive layouts for desktop and mobile devices.",
+        "Independently developed as part of a recruitment technical assessment. This is not an official Susi Air product."
+      ],
+      "year": "2026",
+      "preview": "https://susi-air-assessment.vercel.app/login",
+      "code": "https://github.com/Naldipa/susi-air-assessment",
+      "thumbnail": "/image/projects/web/susi-air-assessment/dashboard.png",
+      "images": [
+        "/image/projects/web/susi-air-assessment/login.png",
+        "/image/projects/web/susi-air-assessment/dashboard.png",
+        "/image/projects/web/susi-air-assessment/schedule.png",
+        "/image/projects/web/susi-air-assessment/logbook.png",
+        "/image/projects/web/susi-air-assessment/more.png"
+      ],
+      "tech": [
+        "Nuxt 3",
+        "Vue 3",
+        "TypeScript",
+        "Pinia",
+        "SCSS",
+        "Chart.js",
+        "NestJS",
+        "Node.js",
+        "REST API"
+      ],
+      "slug": "susi-air-pilot-operations-dashboard",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "IndoKerja Recruitment Platform",
+      "desc": [
+        "Developed a fullstack job recruitment platform as part of a technical assessment for IndoKerja. The application simulates an end-to-end recruitment process: job seekers can explore vacancies, submit applications, and track application statuses, while companies can publish vacancies and manage candidates throughout the recruitment process.",
+        "Implemented the frontend using React, TypeScript, and Vite, with a Node.js and Express REST API backend. Integrated PostgreSQL with Prisma ORM for database management and implemented authentication using JWT in HttpOnly cookies, password hashing with bcrypt, and input validation using Zod.",
+        "Independently developed as part of a technical assessment. This is a recruitment process simulation, not an official IndoKerja production platform."
+      ],
+      "year": "2026",
+      "preview": "https://indokerjaid.vercel.app/",
+      "code": "https://github.com/Naldipa/Indokerja.id",
+      "thumbnail": "/image/projects/web/indokerja/jobs.png",
+      "images": [
+        "/image/projects/web/indokerja/login.png",
+        "/image/projects/web/indokerja/jobs.png",
+        "/image/projects/web/indokerja/applications.png",
+        "/image/projects/web/indokerja/seeker-profile.png",
+        "/image/projects/web/indokerja/company-dashboard.png",
+        "/image/projects/web/indokerja/candidates.png",
+        "/image/projects/web/indokerja/create-job.png",
+        "/image/projects/web/indokerja/company-profile.png"
+      ],
+      "tech": [
+        "React 18",
+        "TypeScript",
+        "Vite",
+        "Node.js",
+        "Express 5",
+        "PostgreSQL",
+        "Prisma ORM",
+        "JWT",
+        "bcrypt",
+        "Zod"
+      ],
+      "slug": "indokerja-recruitment-platform",
+      "category": [1]
     }
   ]
 }
